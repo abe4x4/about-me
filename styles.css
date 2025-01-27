@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #34495e;
+    margin-top: 20px;
+}
+
+/* Divider */
+hr {
+    border: 0;
+    height: 2px;
+    background: #2c3e50;
+    margin: 20px 0;
+}
+
+/* List Styles */
+ul, ol {
+    margin: 0 auto;
+    padding: 0;
+    list-style-position: inside;
+    max-width: 600px;
+}
+
+ul li, ol li {
+    background: #ecf0f1;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Centering Content */
+body > * {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Link and Hover Effects */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
